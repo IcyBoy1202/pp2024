@@ -1,27 +1,3 @@
-'''def student_info(s):
-    s.name = []
-    s.id = []
-    s.DoB = []
-    num_of_student = int(input("Number of students: "))
-    for i in range(num_of_student):
-       s.name += [str(input("Student name here: "))]
-       s.id += [str(input("Student id here: "))]
-       s.DoB += [str(input("Student DoB here: "))]
-    print(s.name, s.id, s.DoB)
-
-def course_info(c):
-     c.name = []
-     c.id = []
-     num_of_courses = int(input("Number of courses: "))
-     for i in range(num_of_courses):
-       c.name += [str(input("Course name here: "))]
-       c.id += [str(input("Course id here: "))]
-     print(c.name, c.id)
-
-
-student_info()
-course_info() '''
-
 class Student:
     def __init__(self):
         self.sname = []
